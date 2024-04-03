@@ -7,6 +7,8 @@ namespace Shenmue_2_Skipper
         {
             ApplicationConfiguration.Initialize();
             Application.Run(new ShenmueForm());
+
+
         }
     }
 }

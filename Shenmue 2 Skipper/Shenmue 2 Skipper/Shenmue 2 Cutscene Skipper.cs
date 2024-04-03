@@ -44,6 +44,7 @@ namespace Shenmue_2_Skipper
                         lblGameProcess.Text = "Shenmue 2 not found";
                         btnToggleSkipper.Enabled = false;
                         btnToggleSkipper.Text = "Enable Cutscene skipper";
+                        btnLaunch.Enabled = true;
                     }));
                 } 
                 else
@@ -53,6 +54,7 @@ namespace Shenmue_2_Skipper
                         lblGameProcess.ForeColor = Color.Green;
                         lblGameProcess.Text = "Shenmue 2 found";
                         btnToggleSkipper.Enabled = true;
+                        btnLaunch.Enabled = false;
                     }));
                 }
 
@@ -93,9 +95,9 @@ namespace Shenmue_2_Skipper
                         return;
 
                     Process gameProcess = processes[0];
-                    IntPtr processHandle = OpenProcess(ProcessAccessFlags.All, false, gameProcess.Id)
+                    IntPtr processHandle = OpenProcess(ProcessAccessFlags.All, false, gameProcess.Id);
 
-                    IntPtr cutsceneEnabledAddress = (IntPtr) gameProcess.MainModule?.BaseAddress + 0x3BF8A90; // 0 when cutscene is unskippable, 1 when cutscene is skipable
+                    IntPtr cutsceneEnabledAddress = (IntPtr)gameProcess.MainModule?.BaseAddress + 0x3BF8A90; // 0 when cutscene is unskippable, 1 when cutscene is skipable
 
                     while (buttonEnabled && processes.Length >= 1)
                     {
@@ -112,6 +114,13 @@ namespace Shenmue_2_Skipper
                 });
             }
             
+        }
+
+        private void btnLaunch_Click(object sender, EventArgs e)
+        {
+            string pathToExe = @"C:\Users\odyss\Documents\Shenmue\sm2\Shenmue2.exe";
+
+            Process.Start(pathToExe);
         }
     }
 }

@@ -30,6 +30,7 @@
         {
             this.lblGameProcess = new System.Windows.Forms.Label();
             this.btnToggleSkipper = new System.Windows.Forms.Button();
+            this.btnLaunch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblGameProcess
@@ -52,11 +53,22 @@
             this.btnToggleSkipper.UseVisualStyleBackColor = true;
             this.btnToggleSkipper.Click += new System.EventHandler(this.btnToggleSkipper_Click);
             // 
+            // btnLaunch
+            // 
+            this.btnLaunch.Location = new System.Drawing.Point(296, 12);
+            this.btnLaunch.Name = "btnLaunch";
+            this.btnLaunch.Size = new System.Drawing.Size(123, 29);
+            this.btnLaunch.TabIndex = 2;
+            this.btnLaunch.Text = "Launch Game";
+            this.btnLaunch.UseVisualStyleBackColor = true;
+            this.btnLaunch.Click += new System.EventHandler(this.btnLaunch_Click);
+            // 
             // ShenmueForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(431, 171);
+            this.Controls.Add(this.btnLaunch);
             this.Controls.Add(this.btnToggleSkipper);
             this.Controls.Add(this.lblGameProcess);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -73,5 +85,6 @@
 
         private Label lblGameProcess;
         private Button btnToggleSkipper;
+        private Button btnLaunch;
     }
 }
