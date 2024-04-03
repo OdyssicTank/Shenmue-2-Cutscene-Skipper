@@ -1,0 +1,17 @@
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\bin\Debug\net7.0-windows\Shenmue 2 Skipper.exe
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\bin\Debug\net7.0-windows\Shenmue 2 Skipper.deps.json
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\bin\Debug\net7.0-windows\Shenmue 2 Skipper.runtimeconfig.json
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\bin\Debug\net7.0-windows\Shenmue 2 Skipper.dll
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\bin\Debug\net7.0-windows\Shenmue 2 Skipper.pdb
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\Shenmue 2 Skipper.csproj.AssemblyReference.cache
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\Shenmue 2 Skipper.csproj.GenerateResource.cache
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\Shenmue 2 Skipper.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\Shenmue 2 Skipper.AssemblyInfoInputs.cache
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\Shenmue 2 Skipper.AssemblyInfo.cs
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\Shenmue 2 Skipper.csproj.CoreCompileInputs.cache
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\Shenmue 2 Skipper.dll
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\refint\Shenmue 2 Skipper.dll
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\Shenmue 2 Skipper.pdb
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\Shenmue 2 Skipper.genruntimeconfig.cache
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\ref\Shenmue 2 Skipper.dll
+G:\Programming\Shenmue 2 Skipper\Shenmue 2 Skipper\obj\Debug\net7.0-windows\Shenmue_2_Skipper.ShenmueForm.resources
