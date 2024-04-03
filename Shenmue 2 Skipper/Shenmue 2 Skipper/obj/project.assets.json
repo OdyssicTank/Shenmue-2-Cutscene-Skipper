@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Programming\\Shenmue 2 Skipper\\Shenmue 2 Skipper\\Shenmue 2 Skipper.csproj",
+      "projectUniqueName": "C:\\Users\\odyss\\Source\\Repos\\Shenmue-2-Cutscene-Skipper\\Shenmue 2 Skipper\\Shenmue 2 Skipper\\Shenmue 2 Skipper.csproj",
       "projectName": "Shenmue 2 Skipper",
-      "projectPath": "G:\\Programming\\Shenmue 2 Skipper\\Shenmue 2 Skipper\\Shenmue 2 Skipper.csproj",
+      "projectPath": "C:\\Users\\odyss\\Source\\Repos\\Shenmue-2-Cutscene-Skipper\\Shenmue 2 Skipper\\Shenmue 2 Skipper\\Shenmue 2 Skipper.csproj",
       "packagesPath": "C:\\Users\\odyss\\.nuget\\packages\\",
-      "outputPath": "G:\\Programming\\Shenmue 2 Skipper\\Shenmue 2 Skipper\\obj\\",
+      "outputPath": "C:\\Users\\odyss\\Source\\Repos\\Shenmue-2-Cutscene-Skipper\\Shenmue 2 Skipper\\Shenmue 2 Skipper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\odyss\\AppData\\Roaming\\NuGet\\NuGet.Config",

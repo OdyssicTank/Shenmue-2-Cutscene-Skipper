@@ -29,6 +29,7 @@ namespace Shenmue_2_Skipper
             gameCheckerThread.Start();
         }
 
+        //Checks if the game is open, makes the button disabled if the game isn't open
         void GameCheckerThread()
         {
             while (true)
@@ -39,6 +40,7 @@ namespace Shenmue_2_Skipper
                 {
                     lblGameProcess.Invoke(new Action(() =>
                     {
+                        lblGameProcess.ForeColor = Color.Red;
                         lblGameProcess.Text = "Shenmue 2 not found";
                         btnToggleSkipper.Enabled = false;
                         btnToggleSkipper.Text = "Enable Cutscene skipper";
@@ -48,11 +50,10 @@ namespace Shenmue_2_Skipper
                 {
                     lblGameProcess.Invoke(new Action(() =>
                     {
+                        lblGameProcess.ForeColor = Color.Green;
                         lblGameProcess.Text = "Shenmue 2 found";
                         btnToggleSkipper.Enabled = true;
                     }));
-
-                    
                 }
 
                 Thread.Sleep(1000);
@@ -63,6 +64,8 @@ namespace Shenmue_2_Skipper
         {
         }
 
+        //After the game is open, the button becomes enabled. If the button is pressed, it changes the button to disable button.
+        //If the game is closed, the button is disabled and game is no longer found.
         private void btnToggleSkipper_Click(object sender, EventArgs e)
         {
             if (buttonEnabled)
