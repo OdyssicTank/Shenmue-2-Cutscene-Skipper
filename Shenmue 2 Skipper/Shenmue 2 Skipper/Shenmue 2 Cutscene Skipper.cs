@@ -95,7 +95,9 @@ namespace Shenmue_2_Skipper
                     Process gameProcess = processes[0];
                     IntPtr processHandle = OpenProcess(ProcessAccessFlags.All, false, gameProcess.Id);
 
-                    IntPtr cutsceneEnabledAddress = (IntPtr)0x7FF7AAD78A90; // 0 when cutscene is unskippable, 1 when cutscene is skipable
+                    //Console.WriteLine("Shenmue2.exe image base: {0:X8}, target offset: {0:X8}", gameProcess.MainModule?.BaseAddress, gameProcess.MainModule?.BaseAddress + 0x3BF8A90);
+
+                    IntPtr cutsceneEnabledAddress = (IntPtr)gameProcess.MainModule?.BaseAddress, gameProcess.MainModule?.BaseAddress + 0x3BF8A90; // 0 when cutscene is unskippable, 1 when cutscene is skipable
 
                     while (buttonEnabled && processes.Length >= 1)
                     {
