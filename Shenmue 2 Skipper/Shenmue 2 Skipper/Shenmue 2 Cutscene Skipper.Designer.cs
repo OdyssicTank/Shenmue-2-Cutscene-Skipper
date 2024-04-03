@@ -36,9 +36,10 @@
             // lblGameProcess
             // 
             this.lblGameProcess.AutoSize = true;
+            this.lblGameProcess.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblGameProcess.Location = new System.Drawing.Point(12, 9);
             this.lblGameProcess.Name = "lblGameProcess";
-            this.lblGameProcess.Size = new System.Drawing.Size(0, 20);
+            this.lblGameProcess.Size = new System.Drawing.Size(0, 28);
             this.lblGameProcess.TabIndex = 0;
             this.lblGameProcess.Click += new System.EventHandler(this.label1_Click);
             // 

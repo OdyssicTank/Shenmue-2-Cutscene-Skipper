@@ -1,0 +1,5 @@
+C:\Users\odyss\Desktop\Shenmue 2 Skipper.exe
+C:\Users\odyss\Desktop\Shenmue 2 Skipper.dll
+C:\Users\odyss\Desktop\Shenmue 2 Skipper.deps.json
+C:\Users\odyss\Desktop\Shenmue 2 Skipper.runtimeconfig.json
+C:\Users\odyss\Desktop\Shenmue 2 Skipper.pdb

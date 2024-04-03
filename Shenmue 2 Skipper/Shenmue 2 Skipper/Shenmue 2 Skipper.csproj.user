@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\odyss\Source\Repos\OdyssicTank\Shenmue-2-Cutscene-Skipper\Shenmue 2 Skipper\Shenmue 2 Skipper\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Update="Shenmue 2 Cutscene Skipper.cs">
       <SubType>Form</SubType>
